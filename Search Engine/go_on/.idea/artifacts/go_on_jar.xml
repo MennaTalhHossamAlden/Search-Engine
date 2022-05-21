@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="go_on:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/go_on_jar</output-path>
+    <root id="archive" name="go_on.jar">
+      <element id="module-output" name="go_on" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/4.0.5/mongodb-driver-core-4.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/4.0.5/mongodb-driver-sync-4.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/bson/4.0.5/bson-4.0.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mongo-java-driver-3.12.10.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

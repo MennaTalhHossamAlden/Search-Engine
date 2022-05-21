@@ -1,0 +1,333 @@
+    html {
+  width: 100%;
+  height: 100%;
+  font-family: cursive;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    /* text-align: center; */
+font-family: 'Comfortaa', cursive;
+background-color: var(--main-color);
+/* background-color: black; */
+}
+
+header nav form:nth-child(2) input {
+  
+    position: absolute;
+    /* height: inherit; */
+    right: 1%;
+    /* margin: auto 0; */
+    margin: auto 0;
+    bottom: 30%;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: var(--second-color);
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+header nav form:nth-child(2) input:hover {
+
+cursor: pointer;
+text-decoration: underline;
+}
+
+
+
+header {
+position: relative;
+    height: 60px;
+    /* background-color: rgb(196, 196, 196); */
+    box-shadow: 0 0 10px var(--footer-hover);
+background-image: linear-gradient(to bottom right, var(--header-colors1), var(--header-colors2));
+/* background-image: linear-gradient(#017b65, #00eaff); */
+}
+
+.sign h1 {
+    font-size: 48px;
+}
+
+.sign div div {
+
+    margin: auto;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+.sign a {
+    color: var(--title-color);
+    text-decoration: none;
+}
+
+
+.sign a:visited {
+    color: var(--visited-color);
+}
+
+.sign a:hover {
+    color: var(--hoverd-links);
+    text-decoration: underline;
+}
+
+.engine_inside {
+
+     position: absolute;
+    width: 300px;
+    /* height: inherit; */
+    right: 9%;
+    /* margin: auto 0; */
+    margin: auto 0;
+    bottom: 22%;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: var(--second-color);
+    font-size: 17px;
+    letter-spacing: 2px;
+  /* margin: auto; */
+  text-align: center;
+  /* top: 50%;
+  position: absolute;
+  transform: translate(0, -60%); */
+    transition: 0.75s;
+justify-content: center;
+align-items: center;
+
+}
+
+button{
+background-color: transparent;
+    border: none;
+    font-size: 15px;
+    color: var(--second-color);
+
+}
+
+button:hover{
+cursor: pointer;
+}
+.sign {
+display: flex;
+
+  width: 70%;
+    height: 123px;
+  margin: auto;
+  text-align: center;
+  /* top: 50%;
+  position: absolute;
+  transform: translate(0, -60%); */
+    transition: 0.75s;
+justify-content: center;
+align-items: center;
+}
+
+.engine_inside input {
+    border-radius: 10px;
+    display: block;
+    margin: auto auto;
+    /* text-align: center; */
+    box-shadow: 0 0 2px var(--cards-box-shadow);
+    /* box-shadow: none; */
+    width: 100%;
+    height: 30px;
+    background-color: var(--cards-background-color);
+    border: none;
+    text-indent: 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: var(--mic-color);
+    font-size: 15px;
+}
+
+.engine_inside input:hover {
+  box-shadow: 0 0 4px var(--cards-input-hover-box-shadow);
+}
+
+.engine_inside input:focus {
+    outline:none;
+  caret-color: var(--mic-color);
+
+    /* transform: translateY(1px); */
+}
+
+.engine_inside input::placeholder {
+    /* color: deeppink; */
+    /* font-size: 5rem; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--cards-imput-placeholder);
+}
+
+.search_box {
+box-shadow: 0 0 5px var(--list-color);
+position: relative;
+display: flex;
+}
+
+button i {
+color: var(--mic-color);
+}
+
+.sign div {
+width: 100%;
+}
+
+.sign:hover{
+    width: 80%;
+}
+
+.sign p {
+    color: var(--link-color);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.cards {
+  padding: 35px;
+    box-shadow: 0 0 16px var(--footer-hover);
+    border-radius: 10px;
+}
+
+
+
+footer {
+   left: 15px;
+  bottom: 0;
+    position: fixed;
+    height: 40px;
+    /* background-color: rgb(196, 196, 196); */
+    /* box-shadow: 0 0 10px rgb(70, 70, 70); */
+    text-align: center;
+    padding: 5px;
+display: flex;
+align-items: center;
+    
+}
+
+.kiki {
+
+    width: 1050px !important;
+    white-space:normal !important;
+    overflow:auto !important;
+    color: var(--snippet-color);
+}
+
+h1 {
+display: flex;
+margin: auto;
+    padding: 15px;
+    /* height: 60px; */
+  text-align: center;
+  /* top: 50%;
+  position: absolute;
+  transform: translate(0, -60%); */
+    transition: 0.75s;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 input[type="submit"] {
+color: var(--color-of-goon);
+       outline: none;
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    font-size: 25px;
+    font-weight: unset;
+letter-spacing: 2px;
+}
+
+h1 input:hover {
+color: var(--color-of-goon-hover);
+cursor: pointer;
+
+}
+
+
+.image {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    font-size: 33px;
+    font-weight: bold;
+    color: var(--no-res);
+}
+
+.image img {
+height: inherit;
+border-radius: 50px;
+}
+
+.my_form input {
+    /* outline: none;
+    border: none; */
+    /* border-radius: 10px; */
+    display: block;
+    /* margin: 20px auto; */
+    display: inline;
+    margin: auto 10px;
+    /* text-align: center; */
+    /* box-shadow: 0 0 2px #666; */
+    /* box-shadow: none; */
+ transform:scale(1,3); /* W3C */
+color: --color-of-goon-hover;
+    width: 20px;
+    font-size: large;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+h1 .sign {
+
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+.my_form2 input {
+
+    border: none;
+    font-size: inherit;
+    background-color: transparent;
+    width: 30px;
+}
+
+.my_form input:hover {
+color:var(--footer-hover);
+}
+
+footer {
+color: var(--second-color);
+}
+
+.my_form input, .my_form2 input {
+color: var(--second-color);
+font-family: inherit;
+}
+
+.search_box input::placeholder, .search_box input::placeholder {
+color: var(--cards-imput-placeholder);
+}
+
+.my_form2 input::-webkit-outer-spin-button,
+.my_form2 input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+

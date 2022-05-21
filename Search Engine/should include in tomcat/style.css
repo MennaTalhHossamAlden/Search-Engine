@@ -1,0 +1,236 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html {
+  width: 100%;
+  height: 100%;
+  font-family: cursive;
+}
+
+body {
+position: relative;
+  background-color: var(--main-color);
+      padding: 0;
+      margin: 0;
+      text-align: center;
+    align-items: center;
+  font-family: 'Comfortaa', cursive;
+
+}
+
+header nav form input {
+  
+    position: absolute;
+    /* height: inherit; */
+    right: 1%;
+    /* margin: auto 0; */
+    margin: auto 0;
+    bottom: 30%;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: var(--second-color);
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+header nav form input:hover {
+
+cursor: pointer;
+text-decoration: underline;
+}
+
+/* header {
+    height: 60px;
+    background-color: rgb(196, 196, 196);
+    box-shadow: 0 0 10px rgb(70, 70, 70);
+background-image: linear-gradient(to bottom right, #5e5e5e, #ececec);
+} */
+
+
+header {
+  position: relative;
+    height: 60px;
+    /* background-color: rgb(196, 196, 196); */
+    box-shadow: 0 0 10px var(--header-box-shadow);
+background-image: linear-gradient(to bottom right, var(--header-colors1),  var(--header-colors2));
+}
+
+
+.video {
+height: 350px;
+width: 600px;
+position: absolute;
+right: 2%;
+    top: 4%;
+ opacity: var(--opacity);
+}
+
+
+.video2 {
+height: 150px;
+width: 400px;
+position: absolute;
+    left: 1%;
+    bottom: -12%;
+  opacity: var(--opacity);
+}
+
+
+
+.sign h1 {
+    font-size: 48px;
+}
+
+/* .sign p a {
+    color: #666;
+} */
+
+.sign {
+  /* width: 40%; */
+ margin: 115px auto;
+  text-align: center;
+  position: relative;
+width: 800px;
+  /* top: 50%;
+  position: absolute;
+  transform: translate(0, -60%); */
+}
+
+.sign input {
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    /* text-align: center; */
+    box-shadow: 0 0 2px var(--cards-box-shadow);
+    /* box-shadow: none; */
+    width: 100%;
+    height: 30px;
+    background-color: var(--cards-background-color);
+    border: none;
+    text-indent: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    color: var(--mic-color);
+    font-size: 15px;
+}
+
+.sign input:hover {
+  box-shadow: 0 0 4px var(--cards-input-hover-box-shadow);
+}
+
+
+.sign input:focus {
+    outline:none;
+  caret-color: var(--mic-color);
+
+    /* transform: translateY(1px); */
+}
+
+.sign input::placeholder {
+    /* color: deeppink; */
+    /* font-size: 5rem; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--cards-imput-placeholder);
+}
+
+.sign input[type="submit"]
+{
+  width: 200px;
+    text-align: center;
+    height: 50px;
+    text-indent: unset;
+  cursor: pointer;
+
+}
+
+
+/* button[type="submit"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+button[type="submit"]:hover {
+  opacity: 1;
+}
+
+.sign button {
+    box-shadow: 0 0 2px black;
+    border: none;
+    width: 100px;
+    height: 30px;
+    background-color: #f2f2f2;
+} */
+
+.cards {
+  padding: 35px;
+    box-shadow: 0 0 16px var( --cards-imput-placeholder);
+    border-radius: 10px;
+}
+
+footer {
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+/* background-color: rgb(196, 196, 196); */
+    box-shadow: 0 0 10px var(--header-box-shadow);
+background-image: linear-gradient(to bottom right, var( --header-colors1), var( --header-colors2));
+}
+
+
+.sign button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 35px;
+    width: 3rem;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    margin-top: 0;
+}
+
+.sign button:hover {
+
+color: rgb(98, 98, 98);
+}
+
+.search_box {
+position: relative;
+}
+
+.logo {
+height: 300px;
+width: 100%;
+
+}
+
+.logo img {
+height: inherit;
+}
+
+.logo + p {
+
+color: var( --second-color);
+
+}
+
+button i {
+color: var(--mic-color);
+}
