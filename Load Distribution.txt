@@ -1,0 +1,6 @@
+Load Distribution:
+
+Mennatalh Hossamalden Abdrabo Said			Crawler - Ranker - Query Processor(Query Proc)
+Nour Ziad ALmulhem						Crawler - Interface - Ranker(Popularity)
+Ahmed Sayed Sayed Madbouly					Indexer - Query Processor - innovation in Indexer
+Ahmed Hosny Abdelrazik Abdelghany			Indexer - Phrase Search - Interface
