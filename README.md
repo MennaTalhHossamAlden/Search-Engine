@@ -7,7 +7,7 @@
 
 
 
-#### important note: first of all you have to change all directories exist in java file to be compatible with your device
+### important note: first of all you have to change all directories exist in java file to be compatible with your device
 
 enjoy you experience :)
 
