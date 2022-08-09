@@ -29,7 +29,7 @@ enjoy you experience :)
 
 
 ### Contributors:
-  Ahmed Hosny
-  Ahmed Sayed Madbouly
-  Mennatallah Hossam
-  Nour Ziad Almulhem
+  - Ahmed Hosny
+  - Ahmed Sayed Madbouly
+  - Mennatallah Hossam
+  - Nour Ziad Almulhem
