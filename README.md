@@ -4,7 +4,7 @@
 - write down your query and the will direct you to the result page
 - you will descover many features inside (change theme - voice searching)
 
-##important note: first of all you have to change all directories exist in java file to be compatible with your device
+## important note: first of all you have to change all directories exist in java file to be compatible with your device
 
 enjoy you experience :)
 
@@ -19,9 +19,10 @@ enjoy you experience :)
 
 
 
-![Screenshot 2022-08-09 025506](https://user-images.githubusercontent.com/76218033/183540080-a9619e19-099f-4e81-9bdf-26d9e0ca1981.jpg)
-![Screenshot 2022-08-09 025304](https://user-images.githubusercontent.com/76218033/183540082-8a9224c1-d694-4ba1-acf3-77bcee74120d.jpg)
+![Screenshot 2022-08-09 025506](https://user-images.githubusercontent.com/76218033/183541330-122b2d21-2d76-41a2-ad99-0fdfdc1f3338.jpg)
+![Screenshot 2022-08-09 025304](https://user-images.githubusercontent.com/76218033/183541258-3c6926f8-5181-4355-a9c4-0c69f463d8d3.jpg)
+
 
 
 # Contributors:
-@nouralmulhem
+[@nouralmulhem] (https://www.github.com/nouralmulhem)
